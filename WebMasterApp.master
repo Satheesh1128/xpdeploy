@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebMasterApp.master.cs"
+    Inherits="WebMasterApp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+<%--    Disable Back--%>
+<%--<script type = "text/javascript" >
+
+    function preventBack() { window.history.forward(); }
+
+    setTimeout("preventBack()", 0);
+
+    window.onunload = function () { null };
+
+</script>--%>
+
+
+
+    <%--  <title>SHHS</title>--%>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%--    <meta name="viewport" content="width=device-width, initial-scale=1.0">--%>
+    <link rel="stylesheet" type="text/css" href="WEBCSS/Headers.css" />
+    <link href="Css/Fonts.css" rel="stylesheet" type="text/css" />
+    <link href="WEBCSS/WebMaster.css" rel="stylesheet" type="text/css" />
+    <link href="WEBCSS/Columns.css" rel="stylesheet" type="text/css" />
+    <link href="WEBCSS/Home.css" rel="stylesheet" type="text/css" />
+    <link href="WEBCSS/Default.css" rel="stylesheet" type="text/css" />
+    <link href="WEBCSS/Alert.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="WEBCSS/Logo.css" />
+    <link href="Css/WebMaster.css" rel="stylesheet" />
+
+    <link href="Css/HTB.css" rel="stylesheet" />
+    <link href="Css/Calender.css" rel="stylesheet" />
+    <%--Only for Menus--%>
+    <script src="JS/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="Css/bootstrap.min.css" />
+    <script src="JS/bootstrap.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:none">
+    <form id="form1" runat="server">
+    <div id="AFBody" runat="server">
+        <%--<div id="headerdiv">
+
+<div id="headerWrapper">--%>
+        <%--<nav class="navbar navbar-inverse">--%>
+        <nav class="navbar-inverse">
+<%--  <div class="container-fluid">--%>
+  <div>
+     
+    <div class="navbar-header">
+         
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="Images/Logo.jpg" class ="Lo"/></a>
+        
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul  class="nav navbar-nav">
+
+
+     
+     
+       
+        
+        
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Masters<span class="caret"></span></a>
+          <ul runat = "server" class="dropdown-menu"  id = "PSM1">
+       
+          </ul>
+        </li>
+
+       
+
+ <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Inventory<span class="caret"></span></a>
+          <ul runat = "server" class="dropdown-menu" id = "PSM2">
+                               
+          </ul>
+        </li>
+
+                  <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Deployment<span class="caret"></span></a>
+          <ul runat = "server" class="dropdown-menu"  id = "PSM3">
+       
+          </ul>
+        </li>
+
+                            <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Database<span class="caret"></span></a>
+          <ul runat = "server" class="dropdown-menu"  id = "PSM4">
+       
+          </ul>
+        </li>
+
+                <li runat="server" id = "MenuHeader">
+        <%-- <li><a href="Default.aspx">Home</a></li>
+        <li><a href="Contact.aspx">Contact</a></li>--%>
+        </li>
+
+         <%-- <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Communication<span class="caret"></span></a>
+          <ul runat = "server" class="dropdown-menu" id = "ResultsList">
+                               
+          </ul>
+        </li>--%>
+
+         <li runat="server" id = "MenuHeader1">
+        
+        </li>
+     
+
+        
+        
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Login.aspx" runat="server">LogOut</a></li>
+      </ul>
+  
+    </div>
+  </div>
+            <div id="MobileHide" class="Version">V1.0.2.1</div>
+</nav>
+        <%--</div>
+</div>
+        --%>
+        <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="FooterHead" runat="server">
+<%--        <div id="Footer" class="col-12" style="background-color: #f4edd7">
+            <div id="Div6" class="col-3" style="text-align: center">
+                <h4>
+                    Links</h4>
+                <h4 runat="server" id="Links">
+                </h4>
+            </div>
+            <div id="Div1" class="col-3" style="text-align: center">
+                <h4>
+                    Sports</h4>
+                <h4 runat="server" id="SportsListFooter">
+                </h4>
+            </div>
+            <div id="Div2" class="col-3" style="text-align: center">
+                <h4>
+                    Results</h4>
+                <h4 runat="server" id="ResultsListFooter">
+                </h4>
+            </div>
+            <div id="Div3" class="col-3" style="text-align: center">
+                <h4>
+                    Connect With Us</h4>
+                <b>Email:</b> <u><a>
+                    <asp:Label ID="EmailDescription" runat="server"></asp:Label></a></u>
+                <br />
+                <b>PhNo:</b>
+                <asp:Label ID="PhNoDes" runat="server"></asp:Label>
+                <br />
+                <b>Address</b>
+                <br />
+                <asp:Label ID="AddDes" runat="server"></asp:Label>
+                <br />
+                <a href="#">
+                    <asp:ImageButton ID="ImageButton1" src="Images/Facebook.png" runat="server" Style="width: 40px;
+                        height: 40px;"></asp:ImageButton></a>
+            </div>
+        </div>--%>
+        <div class="col-12">
+            <%--<div id="Copyright" runat="server" class="col-6" style="text-align: left">
+                © Copyright 2017. All rights reserved
+            </div>--%>
+            <%--<div id="Designed" runat="server" class="col-6" style="text-align: center">
+                Designed by <a href="Kavss.in">Kavss.in</a>
+            </div>--%>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
