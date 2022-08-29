@@ -20,7 +20,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Create Dir
-      run: mkdir /home/runner/.dotnet/sdk/6.0.400/Microsoft/VisualStudio/v17.0/Web/Microsoft.WebSite.Publishing.targets
+      run: ls-l /home/runner
     - name: Build
       run: dotnet build --no-restore
     - name: Test
