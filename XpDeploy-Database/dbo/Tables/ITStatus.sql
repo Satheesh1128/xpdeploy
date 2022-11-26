@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ITStatus] (
+    [Id]     INT           IDENTITY (1, 1) NOT NULL,
+    [Type]   NVARCHAR (50) NULL,
+    [Status] NVARCHAR (50) NULL,
+    CONSTRAINT [PK__ITStatus__3214EC07C217CFAD] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [UC_Type_Status] UNIQUE NONCLUSTERED ([Type] ASC, [Status] ASC)
+);
+

@@ -1,0 +1,1051 @@
+﻿body{
+overflow-y: hidden;
+ }
+
+
+.AtdtakeLabels
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    height: 23px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+
+}
+
+.StuAtdEditAddTextbox
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 5px;   
+    width: auto;
+    height: 23px;   
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+}
+
+.AttendanceSearchTextBox
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 294px;
+    height: 23px;
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    
+}
+
+.AttendanceSearchDropdown
+{
+    float: left;
+    margin-left: -55px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 95px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: blod;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+}
+
+.UsersGridViewButton
+{
+    border: thin solid #C0C0C0;
+    font-family: 'Arial Unicode MS';
+    background-color: #663300;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    float: right;
+}
+
+ body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+
+}
+ 
+
+ .Mainpage
+{
+    margin: 0px;
+    width: 1364px;
+    position: relative;
+}
+
+.header
+{
+  
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 52px;
+    background-color: #CC9900;
+}
+ 
+
+.SecondMenu
+{
+    height: 40px;
+    background-color: #F0FFFF;
+    margin-top: 8px;
+    width: auto;
+
+    
+}
+
+
+
+.FooterMenu
+{
+    height: 25px;
+    background-color: #EAEAEA;
+    margin-top: 0px;
+    width: auto;
+    
+}
+
+
+.Copyright
+{
+    border-style: none;
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 10px;
+    color: #666666;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    text-align: center;
+    margin-left: -15px;
+}
+
+
+
+.ThirdMenu
+{
+    height: 35px;
+    background-color: #FFFACD;
+    margin-top: 0px;
+        width: auto;
+
+    
+}
+
+
+.CountSearchTextBox
+{
+    border-style: none;
+    float: left;
+    margin-left: 0px;
+    margin-top: 8px;
+    font-weight: bold;
+    width: 130px;
+    height: 23px;
+    background-color: #F0FFFF;
+    color: #333399;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook'; /* padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;*/
+    text-align: center;
+}
+
+
+.SchoolName
+{
+    border-style: none;
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    width: 900px;
+    height: 35px;
+    background-color: #F0FFFF;
+    color: #009900;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Century Schoolbook'; /*padding: 3px;
+   border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;*/
+    text-align: center;
+    margin-right: 0px;
+}
+
+.xlupxim
+{
+    border-style: none;
+    margin-left: 0px;
+    font-weight: bold;
+    width: 55px;
+    height: 35px;
+    color: #009900;
+    font-weight: bold;
+    font-family: 'Century Schoolbook'; /*padding: 3px;
+   border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;*/
+    text-align: left;
+     background-color: #F0FFFF;
+}
+
+
+
+
+#HeaderMenu
+{
+    height: 45px;
+    background-color: #00CED1;
+    margin-top: -9px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.StatusSearchDropDown
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+
+.XludDropDown
+{
+    float: right;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.MasterName
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 23px;
+    background-color: #FFFFFF;
+    color: #333399;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-align: center;
+    line-height: -20px;
+}
+
+.StudentSearchTextBox
+{
+    float: left;
+    margin-left: 155px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 294px;
+    height: 23px;
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    
+}
+
+.HMSearchTextBox
+{
+    float: left;
+    margin-left: 265px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 294px;
+    height: 23px;
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    
+}
+
+
+
+
+
+
+.ClassSearchDropdown
+{
+    float: left;
+    margin-left: 1px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 82px;
+    height: 30px;
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';   
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.RefreshButton
+{
+    border-top: 1px solid #CCCCCC;
+    float: right;
+    margin-right: 1px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';   
+    padding:3px;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+
+.YearSearchDropdown
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 95px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: blod;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+}
+
+.ClassSearchDropdown
+{
+    float: left;
+    margin-left: 1px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 58px;
+    height: 30px;
+    
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+
+.SectionSearchDropdown
+{
+    float: left;
+    margin-left: 1px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 52px;
+    height: 30px;
+    
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.CategorySearchDropdown
+{
+    float: left;
+    margin-left: 1px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+
+
+body
+{
+    font-family: Arial;
+    font-size: 10pt;
+    color: #0000FF;
+    background-color: #CCCCCC;
+}
+
+.ImageButton1
+{
+    width: 50px;
+    height: 40px;
+    float: Right;
+    margin-top: 0px;
+}
+
+.Logout
+{
+    width: 50px;
+    height: 55px;
+    float: Right;
+    margin-top: -47px;
+}
+
+.Logoimg
+{
+    width: 100px;
+    height: 52px;
+    float: left;
+    margin-top: 0px;
+}
+
+
+.panel
+{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+        
+.Grid
+{
+    background-color: #F5FFFA;
+    color: #333333;
+    margin-top: 0px;    
+    margin-left: 0px;
+    height: auto;
+    font-family: 'Times New Roman' , Times, serif;   
+
+  
+}
+
+   
+    
+.Grid td
+{
+    border-width: thin;
+    border-style: groove;
+    padding: 8px 0px;
+    color: #663300;
+}
+      
+
+.Grid th
+{
+    padding: 4px 10px;
+    color: #996633;
+    background: #363670;
+    border-left: solid 1px #525252;
+    font-size: 0.9em;
+    font-family: Cambria;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    table-layout: auto;
+}
+
+
+   /* padding: 4px 22px;
+    color: #FFFFFF;
+    background: #363670;
+    border-left: solid 1px #525252;
+    font-size: 0.9em;
+    font-family: Cambria;
+    font-style: normal;
+    font-variant: normal;*/
+    
+    
+.grid span
+{
+
+color: black;
+text-align:justify right;
+}
+
+
+                     
+
+
+.TableHeaderDiv
+{
+    background-color: #7B68EE;
+    height: 30px;
+    padding: 0;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.TableHeader
+
+{
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+ width:auto;
+ color:white;
+
+border-collapse:collapse;
+height:100%;
+         
+         }
+         
+  .modal
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+     
+         
+.Labels
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100px;
+    height: 23px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+
+}
+
+.XLeilabels
+{
+    margin-left: -20px;
+    font-weight: bold;
+    width: 10px;
+    height: 23px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+  
+.StudentEditAddTextbox
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 5px;
+   
+    width: 330px;
+    height: 23px;
+   
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+}
+
+
+.SaveButton
+{
+    float: left;
+    margin-left: 150%;
+    margin-top: 0px;
+    font-weight: bold;
+    width: 330px;
+    height: 30px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    padding: 3px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin-bottom: 2px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: #CCCCCC;
+}
+
+.UsersGridViewButton
+{
+    border: thin solid #B6E427;
+    font-family: 'Arial Unicode MS';
+    background-color: #C1F984;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/*Home.aspx*/
+
+
+
+
+
+
+.Slides
+{
+    height: 610px;
+    width: 1364px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-top: 1px;
+}
+
+
+
+
+.w3-btn-floating:disabled,.w3-btn-floating-large:disabled{cursor:not-allowed;opacity:0.3}
+.w3-btn-floating,.w3-btn-floating-large,.w3-closenav,.w3-opennav{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-btn-floating,.w3-btn-floating-large{display:inline-block;text-align:center;color:#fff;background-color:#000;position:relative;overflow:hidden;z-index:1;padding:0;border-radius:50%;cursor:pointer;font-size:24px}
+.w3-btn-floating{width:40px;height:40px;line-height:40px}
+.w3-btn-floating-large{width:56px;height:56px;line-height:56px}
+
+
+
+        .loading1
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+        
+        .FileUpload
+{
+    margin-top: 60px;
+    margin-left: 200px;
+}  
+
+body
+{
+    background-color: #CCFFCC;
+}
+
+
+
+.SecondMenus
+{
+    height: 40px;
+    background-color: #CCFFCC;
+    margin-top: 50px;
+    width: 100px;
+    
+}
+
+.Logo
+{
+    height: 500px;
+    width: auto;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: #FFFFFF;
+}
+
+.LogoImage
+{
+
+    height: 150px;
+    background-color: #CCFFCC;
+    width: 200px;
+    float: left;
+}
+
+.LI
+
+{
+    height: 150px;
+    width: 200px;
+}
+
+.LogoName
+{
+
+    height: 150px;
+    background-color: #CCFFCC;
+    width: 532px;
+    float: left;
+}
+
+.LN
+{
+    height: 150px;
+    width: 532px;
+}
+
+  .textbox
+{
+    height: 25px;
+    width: 330px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: darkred;
+    outline: 0;
+    margin-top: 48px;
+    font-family: Cambria;
+    font-size: medium;
+    color: #996633;
+    margin-left: 230px;
+}
+
+
+
+ .Button
+{
+    text-align: center;
+    background-color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 24px;
+    font-family: Cambria;
+    font-size: medium;
+    color: #996633;
+    text-align: center;
+    margin-top: 26px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: darkred;
+    margin-left: 350px;
+}
+
+  .Requiredfiled
+{
+    height: 25px;
+    width: 330px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: darkred;
+  
+    
+    margin-top: -128px;
+    font-family: Cambria;
+    font-size: medium;
+    color: #FF9900;
+    
+}
+
+/* DEFAULTS
+----------------------------------------------------------*/
+
+
+
+a:link, a:visited
+{
+    color: #FFFFFF;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active
+{
+}
+
+
+.StaticMenuItem
+{
+    /*vertical-align: middle;
+    background-repeat: repeat-x;
+    text-align: center;
+    background-color: #FFFF00;*/
+
+}
+
+.StaticMenuItemStyle
+{
+   /* color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+    text-indent: 10px;*/
+}
+
+
+   /* NIU*/
+.StaticHoverStyle
+{
+    /*background-color: #FF0000;
+    color: #FFFFFF;*/
+}
+
+
+                     
+  .Menus
+{
+    padding: 5px;
+    height: 40px;
+    background-color: #CC9900;
+    margin-left: 300px;
+    width: auto;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Century Schoolbook';
+    margin-top: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-indent: 30px;
+
+}                   
+                     
+.parent_menu
+{
+    width: 110px;
+    background-color: #009900;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    
+}
+.child_menu
+{
+/*width: 110px;
+background-color: #000;
+color: #fff;
+text-align: center;
+height: 30px;
+line-height: 30px;
+
+    background:#fff;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';     
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;*/
+    
+    
+
+}
+.sub_menu
+{
+    background-color: #CC9900;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Century Schoolbook';
+    padding: 13px 20px 13px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.selected_menu
+{
+    text-decoration: underline;
+}
+/*.hover_menu
+{
+    font-size: medium;
+    font-family: 'Century Schoolbook';      
+    
+}*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+﻿.AttendanceSearchTextBox
+{
+    float: left;
+    margin-left: 0px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 294px;
+    height: 23px;
+    
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';    
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    
+}
+
+.AttendanceSearchDropdown
+{
+    float: left;
+    margin-left: -55px;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 95px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: blod;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+}

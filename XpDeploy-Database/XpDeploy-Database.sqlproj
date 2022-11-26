@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>XpDeploy_Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{e2382765-1fac-49c0-b6a4-7feb60d8d2a7}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>XpDeploy_Database</RootNamespace>
+    <AssemblyName>XpDeploy_Database</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\IssueTracker.sql" />
+    <Build Include="dbo\Tables\Urls.sql" />
+    <Build Include="dbo\Tables\ReleaseTracker.sql" />
+    <Build Include="dbo\Tables\ServerList.sql" />
+    <Build Include="dbo\Tables\IdentityTable.sql" />
+    <Build Include="dbo\Tables\Consumers.sql" />
+    <Build Include="dbo\Tables\DBs.sql" />
+    <Build Include="dbo\Tables\DataBaseCompare.sql" />
+    <Build Include="dbo\Tables\dbcomparison.sql" />
+    <Build Include="dbo\Tables\ServerMaster.sql" />
+    <Build Include="dbo\Tables\dbcomparison_Log.sql" />
+    <Build Include="dbo\Tables\ReleaseTracker_Temp.sql" />
+    <Build Include="dbo\Tables\Dropdowns.sql" />
+    <Build Include="dbo\Tables\RoleMaster.sql" />
+    <Build Include="dbo\Tables\ENVMaster.sql" />
+    <Build Include="dbo\Tables\ClientMaster.sql" />
+    <Build Include="dbo\Tables\Error.sql" />
+    <Build Include="dbo\Tables\CodeDeploy.sql" />
+    <Build Include="dbo\Tables\AppCategory1.sql" />
+    <Build Include="dbo\Tables\RolePermission.sql" />
+    <Build Include="dbo\Tables\MenuMaster.sql" />
+    <Build Include="dbo\Tables\ITStatus.sql" />
+    <Build Include="dbo\Tables\ENVMasterList.sql" />
+    <Build Include="dbo\Tables\ActiveStatus.sql" />
+    <Build Include="dbo\Tables\MenuPermission.sql" />
+    <Build Include="dbo\Tables\AppCategory2.sql" />
+    <Build Include="dbo\Tables\Users.sql" />
+    <Build Include="dbo\Tables\Applications.sql" />
+    <Build Include="dbo\Views\vwReleaseTracker_SELECT.sql" />
+    <Build Include="dbo\Views\Url_Select.sql" />
+    <Build Include="dbo\Views\Application_Version.sql" />
+    <Build Include="dbo\Functions\fnReleasePendingTracker_CCI.sql" />
+    <Build Include="dbo\Functions\fnReleasePendingTracker_HCCB.sql" />
+    <Build Include="dbo\Functions\fnReleasePendingTracker_SAAS.sql" />
+    <Build Include="dbo\Stored Procedures\CodeDeploy_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\CodeDeploy_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\Urls_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\ApplicationList_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\UE_Edit.sql" />
+    <Build Include="dbo\Stored Procedures\ApplicationList_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\ReleaseTracker_DELETE.sql" />
+    <Build Include="dbo\Stored Procedures\MENU_Create.sql" />
+    <Build Include="dbo\Stored Procedures\DBs_Compare_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\DBs_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\Account_Create.sql" />
+    <Build Include="dbo\Stored Procedures\Urls_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\Attendance_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\DBCompare_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\DBCompare_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\IssueTracker_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\IssueTracker_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\IssueTracker_Update.sql" />
+    <Build Include="dbo\Stored Procedures\IssueTracker_DELETE.sql" />
+    <Build Include="dbo\Stored Procedures\DBS_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\Application_Version_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\DBS_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\Error_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\DBS_DELETE.sql" />
+    <Build Include="dbo\Stored Procedures\MENU_Select.sql" />
+    <Build Include="dbo\Stored Procedures\Application_Version_Summary_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\ReleaseTracker_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\RolePermission_Select.sql" />
+    <Build Include="dbo\Stored Procedures\ReleaseTracker_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\Consumers_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\ReleaseTracker_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\Consumers_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\User_LoginValidate.sql" />
+    <Build Include="dbo\Stored Procedures\User_OtpValidate.sql" />
+    <Build Include="dbo\Stored Procedures\Users_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\Masters_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\Masters_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\Masters_UPDATE.sql" />
+    <Build Include="dbo\Stored Procedures\Masters_DELETE.sql" />
+    <Build Include="dbo\Stored Procedures\Users_Update.sql" />
+    <Build Include="dbo\Stored Procedures\Users_Edit.sql" />
+    <Build Include="dbo\Stored Procedures\CodeDeploy_SELECT.sql" />
+    <Build Include="dbo\Stored Procedures\Urls_EDIT.sql" />
+    <Build Include="dbo\Stored Procedures\ApplicationList_Add.sql" />
+    <Build Include="dbo\Stored Procedures\ApplicationList_DELETE.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XpDeploy-Database.publish.xml" />
+  </ItemGroup>
+</Project>

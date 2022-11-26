@@ -1,0 +1,9 @@
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\bin\Release\XpDeploy-Database.dacpac
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\bin\Release\XpDeploy_Database.dll
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\bin\Release\XpDeploy_Database.pdb
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\obj\Release\Model.xml
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\obj\Release\refactor.xml
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\obj\Release\postdeploy.sql
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\obj\Release\predeploy.sql
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\obj\Release\XpDeploy_Database.dll
+E:\SatheeshKumar\MyProjects\XPDeploy\XpDeploy-Database\obj\Release\XpDeploy_Database.pdb

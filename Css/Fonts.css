@@ -1,0 +1,34 @@
+﻿.FontsBG
+{
+    background-color: #996633;
+}
+
+.h1Fonts
+{
+    font-family: Century;
+    color: #CC6600;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.h2Fonts
+{
+    font-family: Century;
+    color:Green;
+    font-weight: bold;
+    font-size: large;
+}
+
+.h3Fonts
+{
+    font-family: Century;
+    color: #008080;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.h4Fonts
+{
+    font-family: Century;
+    font-size: medium;
+}

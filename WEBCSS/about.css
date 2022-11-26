@@ -1,0 +1,40 @@
+﻿
+
+
+#Header1
+{
+    text-align: center;   
+    font-weight: bold;
+}
+
+#abt2
+{
+    text-align: center;
+    
+    
+}
+
+#abt3
+{
+    text-align: center;
+   
+}
+
+.Aimg
+{
+    width: 220px;
+    height: 200px;
+   
+}
+
+#mobile-hide{ visibility: hidden; }
+.mes2
+{
+    width: 95%;
+}
+
+.quoat
+{
+    font-weight: bold;
+}
+

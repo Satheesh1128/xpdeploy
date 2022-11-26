@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ENVMaster] (
+    [ID]      INT           NOT NULL,
+    [ENVName] NVARCHAR (50) NOT NULL,
+    [Status]  NVARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_ENVMaster_id] PRIMARY KEY CLUSTERED ([ID] ASC),
+    CONSTRAINT [UC_ENVName] UNIQUE NONCLUSTERED ([ENVName] ASC)
+);
+

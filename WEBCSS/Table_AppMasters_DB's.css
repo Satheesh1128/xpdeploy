@@ -1,0 +1,74 @@
+﻿table a{
+  color: blue;
+  text-decoration:underline;
+
+}
+
+table {
+    
+    text-align:center;
+    margin: 0 auto; 
+    /* or margin: 0 auto 0 auto */
+    
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	white-space:nowrap;
+    
+}
+
+.calenderImage
+{
+    Width:22px;
+     Height:22px;
+}
+
+
+td
+{
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+
+th
+{
+    padding: 5px;
+    text-align: center;
+    
+
+    
+}
+
+.TableClass tr:checked {
+    background-color:black;
+}
+
+.TableClass tr:hover
+{
+    background-color: #ffff99;
+    cursor: pointer;
+}
+
+table tr:nth-child(even) {
+      background-color:#fff;
+   font-family: Century;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+   font-family: Century;
+}
+
+table th
+{
+    color: #008080;
+    font-weight: bold;
+    font-family: Century;
+    background-color: #eee;
+}
+
+
+table tr.active {background-color: red;}

@@ -1,0 +1,13 @@
+﻿.UsersGridViewButton
+{
+    border: thin solid #C0C0C0;
+    font-family: 'Arial Unicode MS';
+    background-color: #663300;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    float: right;
+}

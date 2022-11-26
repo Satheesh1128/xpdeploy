@@ -1,0 +1,98 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+
+
+a:link, a:visited
+{
+    color: #FFFFFF;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active
+{
+}
+
+
+
+                     
+  .Menus
+{
+    height: 40px;
+    background-color: #009900;
+    margin-left: 300px;
+    width: auto;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Century Schoolbook';
+    padding: 13px 20px 13px 20px;
+    margin-top: 5px;
+    text-indent: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}                   
+                     
+.parent_menu
+{
+    width: 110px;
+    background-color: #009900;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';
+    
+}
+.child_menu
+{
+width: 110px;
+background-color: #000;
+color: #fff;
+text-align: center;
+height: 30px;
+line-height: 30px;
+
+    background:#fff;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Century Schoolbook';     
+    padding:3px;
+    border:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    
+    
+
+}
+.sub_menu
+{
+
+    background-color: #009900; 
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Century Schoolbook';
+    padding: 13px 20px 13px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.selected_menu
+{
+    text-decoration: underline;
+}
+.hover_menu
+{
+    font-size: medium;
+    font-family: 'Century Schoolbook';      
+    
+}

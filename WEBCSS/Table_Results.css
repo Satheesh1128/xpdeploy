@@ -1,0 +1,32 @@
+﻿
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th, td
+{
+    padding: 5px;
+    text-align: left;
+    
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+    font-family: Century;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+   font-family: Century;
+}
+
+table th
+{
+    color: #008080;
+    font-weight: bold;
+    font-family: Century;
+}
+
+

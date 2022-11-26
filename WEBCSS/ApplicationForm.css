@@ -1,0 +1,23 @@
+﻿ .PassportPhoto
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 200px;
+    width: 200px;    
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    line-height: 180px;
+    background-color: #FFFFFF;
+}
+
+.ApplicationFormTextBox
+{
+    border-bottom-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-color: #000000;
+}
+
+

@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[ReleaseTracker_Temp] (
+    [ID]               INT            NOT NULL,
+    [EnvId]            INT            NOT NULL,
+    [ApplicationID]    INT            NULL,
+    [Version]          NVARCHAR (20)  NULL,
+    [FAT_RD]           DATETIME       NULL,
+    [UAT_RD]           DATETIME       NULL,
+    [PRD_RD]           DATETIME       NULL,
+    [TRI_RD]           DATETIME       NULL,
+    [DEMOV2_RD]        DATETIME       NULL,
+    [SITV2_RD]         DATETIME       NULL,
+    [UATV2_RD]         DATETIME       NULL,
+    [PRDV2_RD]         DATETIME       NULL,
+    [SAASSIT]          DATETIME       NULL,
+    [SAASUAT]          DATETIME       NULL,
+    [SAASPRD]          DATETIME       NULL,
+    [SAASPILOT]        DATETIME       NULL,
+    [SAASDEMO]         DATETIME       NULL,
+    [SAASSIT_RD]       DATETIME       NULL,
+    [SAASUAT_RD]       DATETIME       NULL,
+    [SAASPRD_RD]       DATETIME       NULL,
+    [SAASDEMO_RD]      DATETIME       NULL,
+    [SAASPILOT_RD]     DATETIME       NULL,
+    [AppDependency]    NVARCHAR (MAX) NULL,
+    [Jira]             NVARCHAR (MAX) NULL,
+    [ModifiedDateTime] DATETIME       NULL
+);
+

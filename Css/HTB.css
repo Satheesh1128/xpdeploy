@@ -1,0 +1,117 @@
+﻿.HTB {
+}
+
+.SecondMenu {
+    text-align: right;
+    background-color: #f7fcff;
+    height: auto;
+    position: fixed;
+}
+
+.ThirdMenu {
+    margin-top: 31px;
+    position: fixed;
+}
+
+.ThirdMenudbcompare {
+    margin-top: 31px;
+    position: fixed;
+    z-index: -1;
+}
+
+.dynamictablediv {
+    margin: 41px auto auto auto;
+}
+
+.tableHeader {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.btns {
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    border: 2px solid #2196F3;
+}
+
+/* Green */
+.bd1 {
+    background-color: #4CAF50;
+}
+
+    .bd1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+/* Blue */
+.bd2 {
+    background-color: #ff8000;
+}
+
+    .bd2:hover {
+        background-color: #ff8000;
+        color: white;
+    }
+
+.bd3 {
+    background-color: #e61919;
+}
+
+    .bd3:hover {
+        background-color: #e61919;
+        color: white;
+    }
+
+.calender {
+    position: absolute;
+    z-index: -1;
+    width: 10%;
+}
+
+.ddl {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+    padding: 3px;
+    /*-webkit-appearance: none;*/
+}
+
+.ddladdscreen {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    padding: 3px;
+    /*-webkit-appearance: none;*/
+}
+
+
+.Textboxdesign {
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Textboxdesignaddscreen {
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%;
+}
+
+.HeaderTextdesign1 {
+    color: green;
+}
+
+.HeaderTextdesign2 {
+    color: red;
+}
+
+.HeaderTextdesign3 {
+    color: white;
+}
+

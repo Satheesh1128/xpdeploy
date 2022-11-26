@@ -1,0 +1,116 @@
+﻿
+table {
+    width:100%;
+}
+table, th, td
+{
+    border: 1px solid black;
+    
+}
+th{
+    
+   width:202px; 
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+    font-family: Century;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+   font-family: Century;
+}
+
+table#t01 th
+{
+    color: #008080;
+    font-weight: bold;
+    font-family: Century;
+}
+
+
+ .StateButton
+{
+    border-style: none;
+    text-align: center;
+    margin-top: 250px;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+
+ .StateButton1
+{
+    border-style: none;
+    text-align: center;
+    margin-top: 250px;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+
+
+ .StateButton:hover
+{
+    
+    font-weight: bold;
+}
+
+ .StateButton1:hover
+{
+    
+    font-weight: bold;
+}
+
+
+ .StateButtonM
+{
+    border-style: none;
+    text-align: center;    
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+
+ .StateButton1M
+{
+    border-style: none;
+    text-align: center;
+    
+   
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+
+ .StateButtonM:hover
+{
+    
+    font-weight: bold;
+}
+
+ .StateButton1M:hover
+{
+    
+    font-weight: bold;
+}

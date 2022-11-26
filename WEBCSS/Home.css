@@ -1,0 +1,177 @@
+﻿  body {
+      position: relative;
+  }
+  
+  #Header2
+{
+    border-width: 1px;
+    border-color: #000000;
+    height: auto;
+    color: #000000;
+    background-color: #CC9900;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    font-family: Cambria;
+}
+
+#AboutHeader
+{
+    border-width: 1px;
+    border-color: #000000;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #CC9900;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    font-family: Cambria;
+}
+
+  .header1alignment
+{
+    text-decoration: underline;
+    font-family: Cambria;
+    font-size: x-large;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+  .header1alignment1
+{
+    text-decoration: underline;
+    font-family: Cambria;
+    font-size: x-large;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+
+  .AboutHeaderalignment
+{
+margin-top:-21px;
+   
+     background-color: #CC9900;
+     color: #000000;
+
+
+   
+    
+
+}
+
+
+
+.header1alignment:before {
+    content: "";
+    color: red; /* or whatever color you prefer */
+}
+
+
+
+  #About
+{
+    border-width: 1px;
+    padding-top: 50px;
+    height: 697px;
+    color: #FF9900;
+    background-color: #FFFFFF;
+    border-bottom-style: solid;
+}
+  #Contact
+{
+    border-width: 1px;    
+    height: 595px;    
+    background-color: #FFFFFF;
+    text-align: center; 
+}
+
+  #Login
+{
+    border-width: 1px;
+    padding-top: 50px;
+    height: auto;
+    color: brown;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+  #Contact1
+{
+
+    height: auto;
+    color: brown;
+    background-color: #FFFFFF;
+    text-align: center; /*    width: 100vw;*/
+    
+}
+
+
+#Contact2
+{
+    text-align: center;
+  
+}
+
+.hr
+{
+    background-color: #808080;
+    height: 3px;
+   
+}
+
+
+.h1
+{
+    color:darkgoldenrod;
+
+    text-align: center;
+    font-family: Cambria;
+}
+
+
+
+.backendalignment
+{
+    color: #3399FF;
+        
+    font-family: Cambria;
+    
+    font-weight:bold;
+    
+}
+
+.para
+{
+    color:brown;
+    font-weight:bold;
+    text-align: center;
+    font-family: Cambria;
+    font-size: medium;
+
+    
+}
+
+.para1
+{
+    text-align: center;    
+}
+
+
+
+.Slide 
+{
+    position: absolute;
+    left: 0px;
+   
+    z-index: -1;
+}
+
+
+
+.OneClick
+{
+    line-height: 5px;
+}

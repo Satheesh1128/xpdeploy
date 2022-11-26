@@ -1,0 +1,36 @@
+﻿
+table {
+    width:100%;
+}
+table, th, td {
+    
+}
+th, td
+{
+    padding: 5px;
+    text-align: center;
+}
+table tr:nth-child(even) {
+    background-color:#fff;
+    font-family: Century;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+   font-family: Century;
+}
+
+table th
+{
+    color: #008080;
+    font-weight: bold;
+    font-family: Century;
+}
+
+
+.dropdownarrowhide
+{
+    border-radius: 5px;
+   -webkit-appearance: none;
+}
+
+

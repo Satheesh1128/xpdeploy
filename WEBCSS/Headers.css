@@ -1,0 +1,33 @@
+﻿h1
+{
+    font-family: Century;
+    font-weight: bold;
+    color: #CC6600;   
+    font-size: x-large;
+}
+
+h2
+{
+ 
+    
+    color:Green;
+        font-family: Century;
+    
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+h3
+{
+    font-family: Century;
+    color: #008080;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h4
+{
+    font-family: Calibri;
+    font-size: medium;
+}
