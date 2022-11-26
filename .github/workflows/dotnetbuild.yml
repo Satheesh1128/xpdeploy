@@ -3,8 +3,8 @@ name: XPDEPLOY-Build
 on:
   push:
     branches: [ "main" ]
-  # pull_request:
-    # branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
 
@@ -14,14 +14,25 @@ jobs:
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     steps:
+    
     - name: Checkout
       uses: actions/checkout@v3
       
     - name: setup-msbuild
-      uses: microsoft/setup-msbuild@v1.1.3
-      
-    - name: Build Application
-      run: msbuild xpdeploy.sln
-
-
+      uses: microsoft/setup-msbuild@v1.1.3  
   
+      
+    - name: Navigate to Workspace
+      run: cd $GITHUB_WORKSPACE
+      
+    - name: Create Build Directory
+      run: mkdir _build
+    
+    - name: Build Application
+      run: msbuild xpdeploy.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
+      
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: Build Output
+        path: "./_build"
