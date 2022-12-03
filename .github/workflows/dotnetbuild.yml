@@ -5,15 +5,6 @@ on:
 jobs:
   build:
     runs-on: windows-2019
-    
-    env:
-        ReleaseRepoName: buildTest
-        ReleaseBranchName: buildtest2
-        AccountName: ${{ secrets.AccountName }}
-        username: ${{ secrets.username }}
-        email: ${{ secrets.email }}
-        gittoken: ${{ secrets.gittoken }}
-
         
     steps:
     
@@ -27,8 +18,7 @@ jobs:
       run: cd $GITHUB_WORKSPACE
       
     - name: Create Build Directory
-      run: |
-        mkdir build
+      run: mkdir build
         
     - name: Build Application
       run: msbuild xpdeploy.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="build"
@@ -37,18 +27,4 @@ jobs:
       uses: actions/upload-artifact@v3.1.1
       with:
         name: Saved-Build-Artifact
-        path: D:\a\xpdeploy\xpdeploy\build
-        
-    - name: Upload a Build Artifact to Git Release branch
-      run: |
-        cd D:\a\xpdeploy\xpdeploybuild
-        git config --global user.email $env:username
-        git config --global user.name $env:email
-        git init
-        git add *
-        git commit -m "Automatic-Release"
-        git remote add origin https://${{ env.username }}:${{ env.gittoken }}@github.com/${{ env.AccountName }}/${{ env.ReleaseRepoName }}.git
-        git checkout -b ${{ env.ReleaseBranchName }}
-        git pull origin ${{ env.ReleaseBranchName }} --allow-unrelated-histories
-        git push -u origin ${{ env.ReleaseBranchName }} 
-        
+        path: build
