@@ -1,39 +1,54 @@
 name: XPDEPLOY-Build
-
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+    branches: [ "master" ]
 jobs:
-
   build:
+    runs-on: windows-2019
+    
+    env:
+        ReleaseRepoName: buildTest
+        ReleaseBranchName: buildtest2
+        AccountName: ${{ secrets.AccountName }}
+        username: ${{ secrets.username }}
+        email: ${{ secrets.email }}
+        gittoken: ${{ secrets.gittoken }}
 
-    runs-on: windows-2019  # For a list of available runner types, refer to
-                             # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
-
+        
     steps:
     
     - name: Checkout
       uses: actions/checkout@v3
-      
+    
     - name: setup-msbuild
-      uses: microsoft/setup-msbuild@v1.1.3  
-  
+      uses: microsoft/setup-msbuild@v1.1.3 
       
     - name: Navigate to Workspace
       run: cd $GITHUB_WORKSPACE
       
     - name: Create Build Directory
-      run: mkdir _build
-    
-    - name: Build Application
       run: |
-        msbuild.exe xpdeploy.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
-      
-    - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0
+        mkdir build
+        
+    - name: Build Application
+      run: msbuild xpdeploy.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="build"
+        
+    - name: Save Build Artifact
+      uses: actions/upload-artifact@v3.1.1
       with:
-        name: Build Output
-        path: "./_build"
+        name: Saved-Build-Artifact
+        path: build
+        
+    - name: Upload a Build Artifact to Git Release branch
+      run: |
+        cd build
+        git config --global user.email $env:username
+        git config --global user.name $env:email
+        git init
+        git add *
+        git commit -m "Automatic-Release"
+        git remote add origin https://${{ env.username }}:${{ env.gittoken }}@github.com/${{ env.AccountName }}/${{ env.ReleaseRepoName }}.git
+        git checkout -b ${{ env.ReleaseBranchName }}
+        git pull origin ${{ env.ReleaseBranchName }} --allow-unrelated-histories
+        git push -u origin ${{ env.ReleaseBranchName }} 
+        
