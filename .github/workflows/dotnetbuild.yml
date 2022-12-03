@@ -1,7 +1,7 @@
 name: XPDEPLOY-Build
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 jobs:
   build:
     runs-on: windows-2019
