@@ -37,11 +37,11 @@ jobs:
       uses: actions/upload-artifact@v3.1.1
       with:
         name: Saved-Build-Artifact
-        path: build
+        path: D:\a\xpdeploy\xpdeploy\build
         
     - name: Upload a Build Artifact to Git Release branch
       run: |
-        cd build
+        cd D:\a\xpdeploy\xpdeploybuild
         git config --global user.email $env:username
         git config --global user.name $env:email
         git init
