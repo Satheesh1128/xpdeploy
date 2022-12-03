@@ -64,7 +64,7 @@ public partial class Apps : System.Web.UI.Page
         try
         {
             cn.Open();
-            SqlCommand cm = new SqlCommand("SELECT * FROM AppCategory11 ORDER BY CategoryName DESC", cn);
+            SqlCommand cm = new SqlCommand("SELECT * FROM AppCategory1 ORDER BY CategoryName DESC", cn);
             SqlDataAdapter da = new SqlDataAdapter(cm);
             da.Fill(ac1);
             BindAppCategory1.DataSource = ac1;
