@@ -26,6 +26,7 @@ jobs:
     
     - name: Build List
       run: |
+        powershell New-Item D:\a\xpdeploy\xpdeploy\buildapp\Test4.txt
         cd D:\a\xpdeploy\xpdeploy\buildapp
         powershell Get-ChildItem
 
