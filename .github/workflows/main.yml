@@ -19,5 +19,4 @@ jobs:
         msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
         powershell Get-ChildItem
         cd PrecompiledWeb\release
-        cd release
         powershell Get-ChildItem
