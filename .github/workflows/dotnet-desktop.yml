@@ -49,5 +49,5 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"Satheesh1128_xpdeploy" /o:"satheesh1128" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build
           # msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
-          Get-ChildItem
+          # Get-ChildItem
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
