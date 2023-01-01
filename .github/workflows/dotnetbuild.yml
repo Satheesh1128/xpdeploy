@@ -20,7 +20,7 @@ jobs:
     - name: Create Build Directory
       run: mkdir buildapp
       
-    - name: Build app for release
+    - name: Build app for release L
       run: msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
   
     - name: Build List
