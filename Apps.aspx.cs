@@ -15,7 +15,7 @@ using System.IO;
 using ClosedXML.Excel;
 using System.Security.Authentication;
 
-public partial class Apps : System.Web.UI.Page
+public partial class Apps : System.Web.UI.Page1
 {
     SqlConnection cn = new SqlConnection(CommonClass.EnyDecrypt.Decrypt(CommonClass.SQLConnectionName.conStr));
     SqlCommand cmd = new SqlCommand();
