@@ -16,7 +16,8 @@ jobs:
 
     - name: Build app for release
       run: |
-        msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
-        powershell Get-ChildItem
-        cd PrecompiledWeb\release
-        powershell Get-ChildItem
+        powershell Get-Package *Frame*
+        # msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
+        # powershell Get-ChildItem
+        # cd PrecompiledWeb\release
+        # powershell Get-ChildItem
