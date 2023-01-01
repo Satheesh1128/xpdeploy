@@ -21,6 +21,7 @@ jobs:
         # powershell Get-ChildItem
         # cd PrecompiledWeb\release
         powershell Get-ChildItem
+        dotnet tool install --global dotnet-sonarscanner --version 5.9.2
 
     - name: Build and analyze
       env:
