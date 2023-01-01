@@ -47,14 +47,14 @@ public partial class Apps : System.Web.UI.Page1
         }
         else
         {
-            if (!this.IsPostBack)
+            -if (!this.IsPostBack)
             {
                 BindAppCategor1();
                 BindAppCategor2();                
                 BindApplicationList();
                 BindClient1();
                 BindUser1();
-                BindHtmlTable();
+                -BindHtmlTable();
             }
         }
     }
