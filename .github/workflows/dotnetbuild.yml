@@ -19,14 +19,11 @@ jobs:
       
     - name: Create Build Directory
       run: mkdir buildapp
-        
-    - name: Build Application
-      run: |
-        msbuild xpdeploy.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Debug" /p:PublishUrl="D:\a\xpdeploy\xpdeploy\buildapp"
-    
+      
+    - name: Build app for release
+      run: msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
+  
     - name: Build List
       run: |
-        powershell New-Item D:\a\xpdeploy\xpdeploy\buildapp\Test4.txt
-        cd D:\a\xpdeploy\xpdeploy\buildapp
         powershell Get-ChildItem
 
