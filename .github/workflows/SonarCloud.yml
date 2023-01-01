@@ -1,8 +1,8 @@
-name: Build
+name: xpdeploy01-sc
 on:
   push:
     branches:
-      - main
+      - xpdeploy01
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
