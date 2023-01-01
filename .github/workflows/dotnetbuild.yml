@@ -25,5 +25,6 @@ jobs:
   
     - name: Build List
       run: |
+        cd PrecompiledWeb\release
         powershell Get-ChildItem
 
