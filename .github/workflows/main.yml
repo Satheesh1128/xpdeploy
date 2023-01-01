@@ -16,11 +16,11 @@ jobs:
 
     - name: Build app for release
       run: |
-        powershell Get-Package *Sonar*
+        # powershell Get-Package *Sonar*
         # msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
         # powershell Get-ChildItem
         # cd PrecompiledWeb\release
-        # powershell Get-ChildItem
+        powershell Get-ChildItem
 
     - name: Build and analyze
       env:
