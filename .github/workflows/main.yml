@@ -14,7 +14,7 @@ jobs:
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v1.1
 
-    - name: Build app for release
+    - name: Build app for release1
       run: |
         msbuild xpdeploy.sln -t:rebuild -verbosity:diag -property:Configuration=Release
         powershell Get-ChildItem
